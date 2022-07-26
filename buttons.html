@@ -7,6 +7,13 @@
         border: none;
         border-radius: 2px;
         cursor: pointer;
+        transition: opacity 0.15s;
+    }
+    .suscribe-button:hover {
+        opacity: 0.8;
+    }
+    .suscribe-button:active {
+        opacity: 0.5;
     }
     .join-button{
         background-color: white;
@@ -15,11 +22,19 @@
         border-radius: 2px;
         border-style: solid;
         color: rgb(3, 90, 250);
+        font-weight: bold;
         height: 30px;
         width: 60px;
         cursor: pointer;
         margin-left: 8px;
-
+        transition: background-color 1s, color 1s;
+    }
+    .join-button:hover{
+        background-color: rgb(3, 90, 250);
+        color: white;
+    }
+    .join-button:active{
+        opacity: 0.7;
     }
     .tweet-button{
         background-color: rgb(3, 150, 218);
@@ -32,6 +47,14 @@
         font-weight: bold;
         font-size: 15px;
         margin-left: 8px;
+        transition: box-shadow 1s;
+    }
+    .tweet-button:hover{
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+
+    }
+    .tweet-button:active{
+        opacity: 0.5;
     }
     .uber-button{
         background-color: black;
@@ -41,6 +64,14 @@
         height: 40px;
         cursor: pointer;
         margin-left: 5px;
+        transition: background-color 1s, color 1s;
+    }
+    .uber-button:hover{
+        background-color: yellow;
+        color: black;
+    }
+    .uber-button:active{
+        opacity: 0.5s;
     }
     .amazone-button{
         background-color: rgb(238, 238, 44);
@@ -53,18 +84,31 @@
         font-weight: bold;
         cursor: pointer;
         margin-left: 5px;
+        transition: background-color 1s, color 1s;
+    }
+    .amazone-button:hover{
+        background-color: black;
+        color:  rgb(238, 238, 44);
+        box-shadow: 5px 5px 10px rgba(230, 37, 37, 0.5);
+
+    }
+    .amazone-button:active{
+        opacity: 0.5;
     }
     .github-button{
         background-color: rgb(70, 187, 70);
         color: white;
-        height: 34px;
-        width: 100px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
         border: none;
         border-radius: 5px;
         font-weight: bold;
         font-size: 15px;
         cursor: pointer;
         margin-left: 5px;
+        vertical-align: top;
     }
     .bootstrap-button{
         background-color: rgb(154, 73, 179);
@@ -124,4 +168,6 @@
 <button class="download-button">Download</button>
 <button class="linkedin-button">Apply on company website</button>
 <button class="save-button">Save</button>
+
+
 
