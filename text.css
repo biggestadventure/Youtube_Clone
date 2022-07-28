@@ -1,0 +1,47 @@
+p{
+    font-family: arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.vedio-title{
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
+    line-height: 22px;
+    }
+.vedio-stats{
+    font-size: 14px;
+    color: gray;
+    margin-top: 8px;
+    }
+.vedio-author{
+    font-size: 14px;
+    color: gray;
+    margin-top: 16px;
+    margin-bottom: 20px;
+}
+.vedio-content{
+    font-size: 14px;
+    color: gray;
+    width: 280px;
+    line-height: 20px;
+    margin-bottom: 100px;
+}
+.shop-link{
+    font-size: 14px;
+    background-color: rgb(247, 33, 33);
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.shop-now{
+    cursor: pointer;
+}
+.shop-now:hover{
+    text-decoration-line: underline;
+    
+}
+.shop-now:active{
+    opacity:0.5;
+}
